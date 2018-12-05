@@ -1,2 +1,4 @@
-# Deferred_Lighting
-延迟光照和延迟渲染的demo;以比较两者之间的差异
+# ClusteredShading 
+> 这个demo是展现集群渲染的原理
+> 以及和Deferred_Lighting渲染的比较
+

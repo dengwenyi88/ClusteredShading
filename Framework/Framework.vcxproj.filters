@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{11261090-b289-4368-ac71-f393f89ea4f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Windows">
+      <UniqueIdentifier>{6e148f73-ce9f-4156-824c-02e9acbe9feb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Util">
+      <UniqueIdentifier>{5b3b8921-06a0-415f-bf90-bd76003429a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{e7f842fd-a41b-4355-be1d-aff6fcfaf942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Direct3D11">
+      <UniqueIdentifier>{4ef1aca3-eeb2-402f-a0ed-53208316b2bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Imaging">
+      <UniqueIdentifier>{62bb261e-632e-4b67-9264-eb1070a53489}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BaseApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CPU.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Platform.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Button.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\CheckBox.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Dialog.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\DropDownList.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Label.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Slider.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GUI\Widget.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Windows\WindowsBase.cpp">
+      <Filter>Windows</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\BSP.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\ConvexHull.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Model.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\String.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\TexturePacker.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Thread.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Util\Tokenizer.cpp">
+      <Filter>Util</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Frustum.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\MathTools.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Noise.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Reorder.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Scissor.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\SIMD.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\SphericalHarmonics.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Vector.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D11\D3D11App.cpp">
+      <Filter>Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Direct3D11\Direct3D11Renderer.cpp">
+      <Filter>Direct3D11</Filter>
+    </ClCompile>
+    <ClCompile Include="Imaging\Image.cpp">
+      <Filter>Imaging</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BaseApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CPU.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Platform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Button.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\CheckBox.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Dialog.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\DropDownList.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Label.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Slider.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="GUI\Widget.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Windows\resource.h">
+      <Filter>Windows</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Array.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\BSP.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\ConvexHull.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Hash.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\KdTree.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Model.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Queue.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\String.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\TexturePacker.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Thread.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Util\Tokenizer.h">
+      <Filter>Util</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Frustum.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MathTools.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MyMath.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Noise.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Reorder.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Scissor.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\SIMD.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\SphericalHarmonics.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D11\D3D11App.h">
+      <Filter>Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Direct3D11\Direct3D11Renderer.h">
+      <Filter>Direct3D11</Filter>
+    </ClInclude>
+    <ClInclude Include="Imaging\Image.h">
+      <Filter>Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Imaging\jconfig.h">
+      <Filter>Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Imaging\jmorecfg.h">
+      <Filter>Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Imaging\jpeglib.h">
+      <Filter>Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Imaging\png.h">
+      <Filter>Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Imaging\pngconf.h">
+      <Filter>Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Imaging\zconf.h">
+      <Filter>Imaging</Filter>
+    </ClInclude>
+    <ClInclude Include="Imaging\zlib.h">
+      <Filter>Imaging</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Windows\mainicon.ico">
+      <Filter>Windows</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Windows\Resources.aps">
+      <Filter>Windows</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Windows\Resources.rc">
+      <Filter>Windows</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
